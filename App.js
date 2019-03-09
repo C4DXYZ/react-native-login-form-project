@@ -126,6 +126,7 @@ export default class App extends React.Component {
               placeholder="Input email address"
               keyboardType="email-address"
               value={this.state.storedEmail}
+              underlineColorAndroid='transparent'
               // sends the email value to the function and perform operation everytime text is change.
               onChangeText={email => this.onEmailTextChanged(email)}
             />

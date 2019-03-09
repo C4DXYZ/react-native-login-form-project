@@ -225,9 +225,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
-//   imageContainer: {
-//     marginBottom: 50
-//   },
+  imageContainer: {
+    marginTop: -30
+  },
   // alignmentContainer: {
   // },
   inputButtonCommon: {

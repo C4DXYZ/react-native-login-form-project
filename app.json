@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Login Project",
-    "slug": "LoginFormProject",
+    "slug": "react-native-login-form-project",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "react native login form",
+    "githubUrl": "https://github.com/C4DXYZ/react-native-login-form-project.git"
   }
 }

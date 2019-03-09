@@ -102,8 +102,7 @@ export default class App extends React.Component {
   }
 
   render() {
-
-    const { storedEmail, storedPassword } = this.state;
+    
     return (
 
       <View style={styles.container}>
@@ -126,6 +125,7 @@ export default class App extends React.Component {
               placeholder="Input email address"
               keyboardType="email-address"
               value={this.state.storedEmail}
+              underlineColorAndroid='transparent'
               // sends the email value to the function and perform operation everytime text is change.
               onChangeText={email => this.onEmailTextChanged(email)}
             />
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   imageContainer: {
-    marginBottom: 50
+    marginTop: -30
   },
   // alignmentContainer: {
   // },
@@ -237,7 +237,6 @@ const styles = StyleSheet.create({
   },
   inputLabel: {
     fontSize: 16,
-    // fontWeight: 'bold'
   },
   inputContainer: {
     borderWidth: 1,
